@@ -44,7 +44,7 @@ jobs:
       - persist_to_workspace:
           root: .
           paths:
-            - build/*
+            - ./*
 
   deploy:
     docker:
@@ -54,7 +54,7 @@ jobs:
       - run: apk add rsync
 
       # clone repo (required to access `.circleci/deploy.sh`)
-      - run: git clone https://github.com/qAIRa/qAIRa.github.io.git
+      - run: git clone --branch=master https://github.com/unicef/qAIRa.github.io.git
 
       # checkout generated html
       - attach_workspace:

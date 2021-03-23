@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Documentation for qAIRaMap and qAIRaMapAPI',
   tagline: 'Know your air, become the change.',
-  url: 'https://qAIRa.github.io',
-  baseUrl: '/',
+  url: 'https://unicef.github.io',
+  baseUrl: '/qAIRa.github.io/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'qAIRa', // Usually your GitHub org/user name.
